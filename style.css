@@ -1,0 +1,272 @@
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+.search-icon{
+    font-size: 20px;
+    background-color: #e9e5e5;
+    border-radius: 3px !important;
+    
+}
+
+/* Hamburger Menu Start */
+.menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 2.8rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    margin-left: 50%;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+    background: -webkit-linear-gradient(100.61deg, #060CDF 4.02%, #0451E8 37.84%, #038CF1 62.87%, #26EDFE 79.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1.6rem;
+    right: 2.5rem;
+    padding: 4px;
+    border: 2px solid #26EDFE;
+    background: -webkit-linear-gradient(100.61deg, #060CDF 4.02%, #0451E8 37.84%, #038CF1 62.87%, #26EDFE 79.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+  
+  .closeIcon {
+    display: none;
+  }
+  
+  .menu {
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    /* margin-top: 20px; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+    background: linear-gradient(rgb(0, 13, 107, 0.5), rgb(0, 13, 107, 0.5)), url('assets/meta-2.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+  }
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  .banner-top-adjust{
+    margin-top: -60px;
+  }
+  .zindex{
+    position: fixed;
+    z-index: 100;
+    top: 1.6rem;
+    left: 2.5rem;
+    padding: 4px;
+  }
+    /* Hamburger Menu End */
+
+    .bg-color {
+        height: 100px;
+        background: linear-gradient(175.61deg, #060CDF 4.02%, #0451E8 37.84%, #038CF1 62.87%, #26EDFE 79.98%);
+        width: 100%;
+        height: 460px;
+        overflow: hidden;
+        margin-top: 50px;
+        position: relative;
+      }
+    
+      .brand{
+            font-size: 55px;
+            font-weight: 600;
+      }
+      .model-title{
+        font-size: 20px;
+            font-weight: 300;
+      }
+    .price-title{
+        font-size: 29px;
+            font-weight: 500;
+    }
+    .btn-style{
+        padding: 10px 15px;
+        background-color: #03C68B;
+        color: #ffffff;
+        border-radius: 8px;
+        border: none;
+        text-transform: uppercase;
+        margin-top: 45px;
+    }
+    .position img{
+        position: absolute;
+        top: 85px;
+        z-index: 1;
+      
+       
+    }
+    .position-2{
+        position: absolute;
+        bottom: -47px;
+        right: 0;
+        z-index: 1;
+        animation: bounce2 4.5s ease infinite;
+       
+        
+    }
+    
+    
+    
+    @keyframes bounce2 {
+        0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+        30% {transform: translateY(-30px);}
+        60% {transform: translateY(-10px);}
+    }
+    
+    .banner-shadow img{
+        filter: drop-shadow(0.30rem 1.35rem 0.5rem rgba(0, 0, 0, 0.5));
+        
+    }
+
+/* Today's Deal Section*/
+.border-style{
+    position: relative;
+    
+}
+.border-style::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px; 
+    padding: 2px; 
+    background:linear-gradient(100.61deg, #060CDF 4.02%, #0451E8 37.84%, #038CF1 62.87%, #26EDFE 79.98%); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude; 
+    
+    
+    
+}
+
+.bg-color2{
+    background: linear-gradient(175.61deg, #060CDF 4.02%, #0451E8 37.84%, #038CF1 62.87%, #26EDFE 79.98%);
+}
+
+.img-hover{
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.img-hover:hover{
+    
+    transform: scale(1.1);
+}
+
+/* Footer section Start */
+.bg-footer{
+    background: linear-gradient(175.61deg, #060CDF 4.02%, #0451E8 37.84%, #038CF1 62.87%, #26EDFE 79.98%);
+}
+/* Footer section End */
+
+/* Offer for you section Start */
+.offer-bg-1{
+    background-color: #DFCCF1;
+    border-radius: 8px;
+    margin-right: 20px;
+    padding: 12px 0 12px 12px;
+    margin-right: 25px;
+
+}
+.iphone{
+    margin-top: -80px;
+}
+.offer-btn{
+    background-color: #03C68B;
+    padding: 8px 15px;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+.iphone-model-1{
+    color: #530152;
+    font-size: 20px;
+    font-weight: 600;
+}
+.iphone-model{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.iphone-model-2{
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+}
+.offer-title{
+    color: #000000;
+    font-weight: 700;
+    font-size: 50px;
+}
+.offer-sub-title{
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.offer-bg-2{
+    background: linear-gradient(97.4deg, #AED9EA 10.97%, #60A2CD 98.63%);
+    border-radius: 8px;
+    margin-right: 25px;
+    padding: 12px;
+}
+.vr-model{
+font-style: normal;
+font-weight: 600;
+font-size: 32.6207px;
+color: #ffffff;
+}
+.vr-model-inner{
+    font-size: 18.6207px;
+    color: #ffffff;
+}
+.vr-shadow, .iphone-shadow{
+    filter: drop-shadow(0.30rem 1.35rem 0.5rem rgba(0, 0, 0, 0.5));
+}
+.offer-bg-3{
+    background: linear-gradient(97.4deg, #F7E6D3 10.97%, #F7DAB9 98.63%);
+    border-radius: 8px;
+    padding: 12px;
+}
+.headphone-model{
+    font-style: normal;
+font-weight: 600;
+font-size: 32.6207px;
+color: #B16A00;
+margin-top: -10px;
+}
+.headphone-model-inner{
+    font-size: 20px;
+}
+
+.carousel-control-next,.carousel-control-prev{
+    display: inline-block;
+    
+}
+/* Offer for you section End */
+
