@@ -114,7 +114,7 @@ body{
         text-transform: uppercase;
         margin-top: 45px;
     }
-    .position img{
+    /* .position img{
         position: absolute;
         top: 85px;
         z-index: 1;
@@ -142,7 +142,7 @@ body{
     .banner-shadow img{
         filter: drop-shadow(0.30rem 1.35rem 0.5rem rgba(0, 0, 0, 0.5));
         
-    }
+    } */
 
 /* Today's Deal Section*/
 .border-style{
@@ -270,3 +270,42 @@ margin-top: -10px;
 }
 /* Offer for you section End */
 
+.mobile-section{
+   
+    margin-top: 110px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  
+   
+    
+   
+}
+.image-design{
+   
+    background: linear-gradient(160.26deg, rgba(6, 12, 223, 0.5) -8.09%, rgba(4, 81, 232, 0.5) 21.06%, rgba(3, 140, 241, 0.5) 47.43%, rgba(38, 237, 254, 0.5) 83.54%);  
+    padding-top: 50px;
+    
+}
+.image-design img{
+    margin-left: -33px;
+    margin-bottom: -65px;
+}
+.mobile-model{
+    color: #05518E;
+    font-size: 40px;
+    font-weight: 600;
+}
+.description{
+    font-size: 20px;
+    color: #222222;
+    font-weight: 600;
+    padding: 0 10px;
+    
+}
+.btn-design{
+    padding: 8px 50px;
+    background: linear-gradient(120.26deg, rgba(6, 12, 223, 0.5) -8.09%, rgba(4, 81, 232, 0.5) 21.06%, rgba(3, 140, 241, 0.5) 47.43%, rgba(38, 237, 254, 0.5) 83.54%);  
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
