@@ -29,10 +29,13 @@
 <body>
    
         <section class="home">
+          <div class="position banner-shadow">
+            <img src="assets/banner-1.png" class="img-fluid" alt="image">
+        </div> 
            <!-- Hamburger Menu Start  -->
-     <div class="zindex">
+     <!-- <div class="zindex">
       <img src="assets/logo/ElecXo.png" alt="Logo">
-     </div>
+     </div> -->
      <ul class="menu overlay">
          <li><a class="menuItem" href="#">Home</a></li>
          <li><a class="menuItem" href="#">Pages</a></li>
@@ -47,13 +50,16 @@
       </button>
         <!-- Hamburger Menu End  -->
         <div class="card bg-transparent border border-0 banner-top-adjust">
+         
           <!-- Bootstrap Carousel -->
           <div id="carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-controls">
               <ol class="carousel-indicators">
                 <li data-target="#carousel" data-slide-to="0" class="active" style="background-image:url('assets/carousel/headphone.png')"></li>
                 <li data-target="#carousel" data-slide-to="1" style="background-image:url('assets/carousel/headphone-2.png')"></li>
-                <li data-target="#carousel" data-slide-to="2" style="background-image:url('assets/carousel/mobile-10.png')"></li>
+                <li data-target="#carousel" data-slide-to="2" style="background-image:url('assets/carousel/iphone.png')"></li>
+                <li data-target="#carousel" data-slide-to="3" style="background-image:url('assets/carousel/TV.png')"></li>
+                <li data-target="#carousel" data-slide-to="4" style="background-image:url('assets/carousel/laptop.jpg')"></li>
                 
               </ol>
               <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -94,9 +100,33 @@
                    <p>The best gets even better</p>
                 </div>
               </div>
+                 <!-- Carousel Item-4 -->
+                 <div class="carousel-item">
+                  <video class="myVideo" loop muted autoplay="autoplay">
+                    <source src="assets/carousel/tv.mp4" type="video/mp4">
+                </video>
+                  <div class="container">
+                     <h2>Sony Bravia TV</h2>
+                     <p>High resolution with cristal clear</p>
+                  </div>
+                </div>
+                 <!-- Carousel Item-5 -->
+                 <div class="carousel-item">
+                  <video class="myVideo" loop muted autoplay="autoplay">
+                    <source src="assets/carousel/laptop.mp4" type="video/mp4">
+                </video>
+                  <div class="container">
+                     <h2>Mac Book Pro</h2>
+                     <p>High resolution with cristal clear</p>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
+        <!-- Right Bottom Image -->
+        <div class="right-img banner-shadow">
+          <img src="assets/Design_copy.png" class="img-fluid" alt="">
+        </div> 
          </section>
           
      
@@ -283,9 +313,9 @@
       <!-- Banner Carousel with chracter Start -->
        <!-- Hero Part -->
        <section class="home1 carousel-bg-color">
-        <div class="position banner-shadow">
+        <!-- <div class="position banner-shadow">
          <img src="assets/banner-1.png" class="img-fluid" alt="image">
-     </div> 
+     </div>  -->
         <div class="card bg-transparent border border-0 banner-top-adjust">
           <!-- Bootstrap Carousel -->
           <div id="carousell" class="carousel slide" data-ride="carousell">
@@ -359,10 +389,14 @@
       <!-- Banner Carousel with chracter End -->
 
       <!-- Mobile Phone Section Start -->
-      <section class="container mobile-section">
-        <div class="row">
-          <div class="col-md-7 pl-0 image-design">
-            <img src="assets/mobile-phone/phone.png"  class="img-fluid" alt="Your Image">
+      <section class="container"style="margin-top: 150px">
+        <div class="d-flex flex-row justify-content-between ">
+          <img src="assets/mobile-phone/mob.png" class="img-fluid" alt="">
+        <img src="assets/mobile-phone/view.png" class="img-fluid" alt="">
+        </div>
+        <div class="row mobile-section mt-5">
+          <div class="col-md-7 image-design">
+            <img src="assets/mobile-phone/phone.png" alt="iPhone">
           </div>
           <div class="col-md-5 d-flex flex-column justify-content-center bg-white">
             <h2 class="mobile-model">IPHONE 13<br>
@@ -371,7 +405,10 @@
               Dslr like Camera.</p>
               <p class=" description">All in one Premium Smart phone.</p>
             <div class="w-50">
-              <button class="btn-design">Purchase</button>
+              <button class="btn-design">Purchase
+                <span><i class="ri-arrow-right-circle-line"></i></span>
+              </button>
+             
             </div>
           </div>
         </div>
@@ -449,7 +486,18 @@
           <img src="assets/Television/television.png" class="img-fluid" alt="">
         <img src="assets/Television/view.png" class="img-fluid" alt="">
         </div>
-          <div class="row mt-4">
+
+        <!-- Television videos start -->
+        <div class="row mt-5 rounded p-4 tv-video-design">
+          <video loop muted autoplay="autoplay">
+            <source src="assets/Television/television.mp4"  type="video/mp4" class="video-size">
+        </video>
+        </div>
+        <!-- Television videos end -->
+
+
+        <!-- Product card start -->
+          <div class="row" style="margin-top: 80px;">
             <!-- Product Cart-1 -->
             <div class="col-md-3 mb-4 img-hover">
               <div class="card p-4" style="height: 300px;">
@@ -631,6 +679,15 @@
 
       <!-- Accessories Section End -->
 
+      <section class="container">
+        <!-- Tech videos start -->
+      <div class="row mt-5 rounded p-4 tv-video-design">
+        <video loop muted autoplay="autoplay">
+          <source src="assets/tech video/tech.mp4" type="video/mp4">
+      </video>
+      </div>
+      <!-- Tech videos end -->
+      </section>
 
       <!-- Advertisement Section Start -->
       <section class="container my-5">

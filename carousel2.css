@@ -2,19 +2,19 @@
 .carousel-bg-color{
     background: linear-gradient(180.61deg, #060CDF 4.02%, #0451E8 37.84%, #038CF1 62.87%, #26EDFE 79.98%);
         width: 100%;
-        position: relative;
+        /* position: relative; */
         margin-top: 150px;
 }
-.position{
+/* .position{
     position: absolute;
-}
+} */
 
-.position img{
+/* .position img{
    margin-top: -140px;
    z-index: 3;
    left: 10%;
    animation: bounce 1.3s infinite;
-}
+} */
 
 .right-img{
     position: absolute;
